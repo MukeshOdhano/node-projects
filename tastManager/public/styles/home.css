@@ -1,0 +1,89 @@
+:root{
+   --backgroun-color: #ececec;
+   --color-1: rgb(0, 137, 250);
+}
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body{
+   width: 100%;
+   height: 100vh;
+   font-family: sans-serif;
+   background-color: var(--backgroun-color);
+}
+
+form{
+   margin: 5rem auto;
+   padding: 1.5rem;
+   width: 35rem;
+   height: 12rem;
+   background-color: white;
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+   border-radius: .5rem;
+   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+   position: relative;
+}
+
+h1{
+   margin-bottom: 1rem;
+   text-transform: uppercase;
+   color: var(--color-1);
+}
+
+#task,
+#submit{
+   padding: 0.5rem 1rem;
+   border: 1px solid transparent;
+   font-size: 1.2rem;
+}
+#task:focus,
+#submit:focus{
+   outline: none;
+}
+
+#task{
+   width: 20rem;
+   background-color: #ececec;
+}
+
+#submit{
+   margin: -5px;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   color: white;
+   background-color: var(--color-1);
+
+   border-radius: 0 .3rem .3rem 0;
+}
+
+.task-list{
+   margin: 0 auto;
+   width: 35rem;
+   height: 12rem;
+   background-color: white;
+}
+
+.task-list ul li{
+   padding: .3rem .5rem;
+   margin: 10px auto;
+   width: 28rem;
+   font-size: 1.2rem;
+   background-color: yellowgreen;
+   list-style: none;
+   display: flex;
+   justify-content: space-between;
+}
+.task-list .icon{
+   background: gray;
+   width: 7rem;
+   display: flex;
+   justify-content: space-around;
+}

@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-const connectionStr = 'mongodb+srv://Mukesh:Mukesh@cluster0.cam6lhx.mongodb.net/Task_Manager?retryWrites=true&w=majority'
+const connectionStr = ''
 
 mongoose
 .connect(connectionStr)
